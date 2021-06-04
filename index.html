@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>No site found</title>
+<style>
+*{margin:0;padding:0;color:#444}
+body{font-size:14px;font-family:"Microsoft Yahei"}
+.main{width:600px;margin:10% auto;}
+.title{background: #20a53a;color: #fff;font-size: 16px;height: 40px;line-height: 40px;padding-left: 20px;}
+.content{background-color:#f3f7f9; height:300px;border:1px dashed #c6d9b6;padding:20px}
+.t1{border-bottom: 1px dashed #c6d9b6;color: #ff4000;font-weight: bold; margin: 0 0 20px; padding-bottom: 18px;}
+.t2{margin-bottom:8px; font-weight:bold}
+ol{margin:0 0 20px 22px;padding:0;}
+ol li{line-height:27px}
+</style>
+</head>
+
+<body>
+        <div class="main">
+                <div class="title">No site found</div>
+                <div class="content">
+                        <p class="t1">Your request did not find the corresponding site on the Web server！</p>
+                        <p class="t2">Possible cause：</p>
+                        <ol>
+                                <li>You did not bind this domain name or IP to the corresponding site!</li>
+                                <li>The configuration file is not valid!</li>
+                        </ol>
+                        <p class="t2">How to solve it：</p>
+                        <ol>
+                                <li>Check to see if you are already bound to the corresponding site, and if you confirm that you are bound, try overloading the Web service；</li>
+                                <li>Check that the port is correct；</li>
+                                <li>If you are using a CDN product, try clearing the CDN cache；</li>
+                                <li>For regular site visitors, please contact the site administrator；</li>
+                        </ol>
+                </div>
+        </div>
+</body>
+</html>
